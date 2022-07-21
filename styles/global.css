@@ -33,3 +33,55 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+section {
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+    display: grid;
+    background: white;
+    border: 1px solid black;
+}
+
+#question-section {
+    justify-items: center;
+    gap: 20px;
+    padding: 35px 50px;
+    font-family: fantasy;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+    resize: vertical;
+}
+
+.hidden {
+    display: none;
+}
+
+#answer-section {
+    padding: 20px;
+}
+
+.crystal-ball {
+    font-size: 25em;
+    margin: -30px 0;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#answer-display {
+    font-size: 1em;
+    margin-left: 1rem;
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 11rem;
+    font-size: 2.5em;
+    font-family: fantasy;
+    color: white;
+}
+
+#question-display {
+    font-family: fantasy;
+}
